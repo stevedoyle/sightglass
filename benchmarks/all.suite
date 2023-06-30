@@ -114,3 +114,10 @@ shootout-switch/benchmark.wasm
 shootout-xblabla20/benchmark.wasm
 shootout-xchacha20/benchmark.wasm
 spidermonkey/benchmark.wasm
+wasi-crypto/wasi-crypto-aesgcm.wasm
+wasi-crypto/wasi-crypto-ed25519-sign.wasm
+wasi-crypto/wasi-crypto-ed25519-verify.wasm
+wasi-crypto/wasi-crypto-hmac.wasm
+wasi-crypto/wasi-crypto-rsa-sign.wasm
+wasi-crypto/wasi-crypto-rsa-verify.wasm
+wasi-crypto/wasi-crypto-sha256.wasm
