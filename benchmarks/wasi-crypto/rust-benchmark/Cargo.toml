@@ -1,0 +1,40 @@
+[package]
+name = "benchmark"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasi-crypto-guest = "0.1"
+sightglass-api = "0.1"
+
+[workspace]
+
+[[bin]]
+name = "wasi-crypto-aesgcm"
+path = "src/wasi-crypto-aesgcm.rs"
+
+[[bin]]
+name = "wasi-crypto-sha256"
+path = "src/wasi-crypto-sha256.rs"
+
+[[bin]]
+name = "wasi-crypto-hmac"
+path = "src/wasi-crypto-hmac.rs"
+
+[[bin]]
+name = "wasi-crypto-rsa-sign"
+path = "src/wasi-crypto-rsa-sign.rs"
+
+[[bin]]
+name = "wasi-crypto-rsa-verify"
+path = "src/wasi-crypto-rsa-verify.rs"
+
+[[bin]]
+name = "wasi-crypto-ed25519-sign"
+path = "src/wasi-crypto-ed25519-sign.rs"
+
+[[bin]]
+name = "wasi-crypto-ed25519-verify"
+path = "src/wasi-crypto-ed25519-verify.rs"
